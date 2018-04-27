@@ -1,4 +1,4 @@
-node('docker) {
+node('docker') {
 
     docker.image('apline:3.6').inside {
 
